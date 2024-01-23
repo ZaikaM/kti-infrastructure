@@ -12,7 +12,7 @@ services:
       - flask
 
   flask:
-    image: "zaikama/flask:1.0"
+    #image: "zaikama/flask:1.0"
     build: .
     container_name: flask
     environment:
